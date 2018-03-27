@@ -1,4 +1,6 @@
 /*
+ * update belah ketupat
+ * lebih baru lagi
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -24,7 +26,7 @@ public class Jurnalmod82 {
         for (int i = -n; i <= n; i++) {
             for (int j = -n; j <= n; j++) {
                 if (Math.abs(i) + Math.abs(j) <= n) System.out.print("* ");
-                else                                System.out.print("  ");
+                else                                System.out.print("0 ");
             }
             System.out.println();
         }
